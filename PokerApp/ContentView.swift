@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = WebViewModel(link: "http://barstool-poker.com")
     var body: some View {
-        WebView()
+        
+        ZStack {
+            SwiftUIWebView(viewModel: model)
+            if !model.didFinishLoading {
+                ProgressView()
+            }
+        }
     }
 }
 
