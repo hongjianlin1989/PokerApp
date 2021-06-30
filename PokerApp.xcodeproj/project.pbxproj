@@ -14,6 +14,8 @@
 		C16C2495268B5577009BCCFF /* PokerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C2494268B5577009BCCFF /* PokerAppTests.swift */; };
 		C16C24A0268B5577009BCCFF /* PokerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C249F268B5577009BCCFF /* PokerAppUITests.swift */; };
 		C16C24B1268B55F6009BCCFF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C24B0268B55F6009BCCFF /* WebView.swift */; };
+		C16C2662268CDF80009BCCFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16C2661268CDF80009BCCFF /* LaunchScreen.storyboard */; };
+		C16C266A268CE0D0009BCCFF /* ProgressLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C2669268CE0D0009BCCFF /* ProgressLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C16C249F268B5577009BCCFF /* PokerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerAppUITests.swift; sourceTree = "<group>"; };
 		C16C24A1268B5577009BCCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C16C24B0268B55F6009BCCFF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C16C2661268CDF80009BCCFF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C16C2669268CE0D0009BCCFF /* ProgressLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		C16C2481268B5574009BCCFF /* PokerApp */ = {
 			isa = PBXGroup;
 			children = (
+				C16C2661268CDF80009BCCFF /* LaunchScreen.storyboard */,
 				C16C2482268B5574009BCCFF /* PokerAppApp.swift */,
 				C16C2484268B5574009BCCFF /* ContentView.swift */,
+				C16C2669268CE0D0009BCCFF /* ProgressLoadingView.swift */,
 				C16C24B0268B55F6009BCCFF /* WebView.swift */,
 				C16C2486268B5577009BCCFF /* Assets.xcassets */,
 				C16C248B268B5577009BCCFF /* Info.plist */,
@@ -236,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16C2662268CDF80009BCCFF /* LaunchScreen.storyboard in Resources */,
 				C16C248A268B5577009BCCFF /* Preview Assets.xcassets in Resources */,
 				C16C2487268B5577009BCCFF /* Assets.xcassets in Resources */,
 			);
@@ -264,6 +271,7 @@
 			files = (
 				C16C24B1268B55F6009BCCFF /* WebView.swift in Sources */,
 				C16C2485268B5574009BCCFF /* ContentView.swift in Sources */,
+				C16C266A268CE0D0009BCCFF /* ProgressLoadingView.swift in Sources */,
 				C16C2483268B5574009BCCFF /* PokerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

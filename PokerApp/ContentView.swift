@@ -14,7 +14,7 @@ struct ContentView: View {
         ZStack {
             SwiftUIWebView(viewModel: viewModel)
             if !viewModel.didFinishLoading {
-                ProgressView()
+                ProgressLoadingView()
             }
         }
     }
